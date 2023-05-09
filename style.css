@@ -1,0 +1,26 @@
+body::before{
+  display: block;
+  content: '';
+  height: 60px;
+}
+.icon-link {
+  text-decoration: none;
+}
+
+.icon-link:hover {
+  text-decoration: none;
+}
+
+.icon-link:focus {
+  text-decoration: none;
+  outline: none;
+}
+#map{
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .news-input{
+    width: 50%;
+  }
+}
